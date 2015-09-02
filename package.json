@@ -1,0 +1,28 @@
+{
+  "name": "hoff",
+  "version": "1.0.0",
+  "description": "A collection of higher order functions you may find useful",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinniegarcia/hoff.git"
+  },
+  "keywords": [
+    "higher",
+    "order",
+    "functions",
+    "HOF",
+    "functional",
+    "programming",
+    "collections"
+  ],
+  "author": "Vinnie Garcia <vinnie@coev.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinniegarcia/hoff/issues"
+  },
+  "homepage": "https://github.com/vinniegarcia/hoff"
+}
