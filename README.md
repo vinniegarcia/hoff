@@ -7,7 +7,7 @@
 
 ## Overview
 
-Hoff is a collection of higher order functions. I don't really have a goal here other than to show that these high-level functions are really easy to write in ES6.
+Hoff is a collection of higher order functions. I don't really have a goal here other than to show that these high-level functions are really easy to write in ES6. And I thought the name `hoff` would be cool for a library of HOFs so here it is.
 
 ## Functions
 
