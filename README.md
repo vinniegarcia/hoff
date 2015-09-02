@@ -15,7 +15,10 @@ Hoff is a collection of higher order functions. I don't really have a goal here 
 - `sequence` - wraps functions `f(x)` and `g(x)` such that `f(g(x))`.
 - `partial` - partially applies a function `f` with the `arguments` given and returns a function that waits for the remaining arguments.
 - `curry` - will return functions until the number of arguments given matches or exceeds the number of arguments in function `f`, then returns the value of the function's execution.
+- `identity` - returns a function that returns a stored value. Nothing fancy.
+- `not` - returns a function that returns the negation of the function invocation.
+- `partition` - Splits an array in two based on a `predicate` function: `[elementsThatMatch, elementsThatDontMatch]`.
 
 ## You should write more functions to do __________.
 
-You're absolutely right! 
+You're absolutely right! [File an issue](https://github.com/vinniegarcia/hoff/issues)!
