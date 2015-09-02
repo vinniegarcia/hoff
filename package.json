@@ -1,0 +1,47 @@
+{
+  "name": "hoff",
+  "version": "1.0.0",
+  "description": "A collection of higher order functions you may find useful",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "babel-node --stage 0 src/index.es6",
+    "lint": "eslint src/**/*.es6",
+    "compile": "babel --stage 0 -d dist/ src/",
+    "prepublish": "npm run compile",
+    "tape": "babel-node --stage 0 node_modules/argg src/test/*.es6",
+    "istanbul": "npm run compile && istanbul cover --dir coverage/istanbul node_modules/argg dist/test/*.js --report lcovonly",
+    "coverage": "npm run compile && istanbul cover --dir coverage/istanbul node_modules/argg dist/test/*.js --report html",
+    "coveralls": "cat ./coverage/istanbul/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "plato": "plato -d coverage/plato dist/index.js",
+    "test": "npm run istanbul && npm run coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinniegarcia/hoff.git"
+  },
+  "keywords": [
+    "higher order functions",
+    "HOF",
+    "functional programming",
+    "functions",
+    "collections",
+    "es6"
+  ],
+  "author": "Vinnie Garcia <vinnie@coev.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinniegarcia/hoff/issues"
+  },
+  "homepage": "https://github.com/vinniegarcia/hoff",
+  "devDependencies": {
+    "argg": "0.0.2",
+    "babel": "^5",
+    "babel-eslint": "^4.1.0",
+    "coveralls": "^2.11.4",
+    "eslint": "^1.2.1",
+    "istanbul": "^0.3.18",
+    "plato": "^1.5.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {}
+}
