@@ -18,4 +18,4 @@ Hoff is a collection of higher order functions. I don't really have a goal here 
 
 ## You should write more functions to do __________.
 
-You're absolutely right! 
+You're absolutely right! [File an issue](https://github.com/vinniegarcia/hoff/issues)!
