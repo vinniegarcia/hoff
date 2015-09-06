@@ -1,3 +1,5 @@
+'use strict';
+
 import test from 'tape';
 import compose from '../lib/compose';
 import {add, dub, sq} from './util/simpleFunctions';
