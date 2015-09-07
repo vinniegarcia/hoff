@@ -1,5 +1,7 @@
 'use strict';
 
+import 'babel/polyfill';
+
 export accumulate from './lib/accumulate';
 export compose from './lib/compose';
 export curry from './lib/curry';
