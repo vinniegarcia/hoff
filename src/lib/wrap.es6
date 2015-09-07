@@ -1,5 +1,5 @@
 'use strict';
 
-const wrap = (fn, n) => fn(n);
+const wrap = (n, fn) => [fn(...n)];
 
 export default wrap;
